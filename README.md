@@ -46,7 +46,7 @@ max_workers:       10    # parallel API threads per dataset
 max_context_chars: 4000
 ```
 
-> **Note:** `hf_token` is only required for gated datasets. Accept dataset terms on HuggingFace before running: [lmsys/lmsys-chat-1m](https://huggingface.co/datasets/lmsys/lmsys-chat-1m), [GAIR/lima](https://huggingface.co/datasets/GAIR/lima).
+> **Note:** `hf_token` is only required for gated datasets. Accept dataset terms on HuggingFace before running.
 
 ---
 
