@@ -1,0 +1,25 @@
+# ============================================================
+# config.yaml
+# All sensitive credentials and path configuration go here.
+# DO NOT commit real API keys or tokens to version control.
+# ============================================================
+
+# --- API ---
+api_url: "http://your-api-host:port/v1/chat/completions"
+api_key: "YOUR_API_KEY_HERE"
+model: "your_model_here"
+temperature: 0.2
+
+# --- HuggingFace ---
+# Required for gated datasets
+# Get your token from https://huggingface.co/settings/tokens
+hf_token: ""
+
+# --- Paths ---
+output_dir: "/projects/data/datasets/code_post_training_data/sft_to_reasoning"
+cache_dir: "/projects/data/datasets/code_post_training_data/"
+
+# --- Pipeline settings ---
+save_interval: 20     # rows between each save + checkpoint
+max_workers: 10       # parallel API threads per dataset
+max_context_chars: 4000
