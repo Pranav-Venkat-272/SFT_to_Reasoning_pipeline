@@ -1,0 +1,6 @@
+requests
+pandas
+pyarrow
+datasets
+huggingface_hub
+pyyaml
