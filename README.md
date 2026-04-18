@@ -127,7 +127,7 @@ Both pipelines produce parquet files with the same schema:
 | `Domain` | `"NL"` |
 | `Language` | `"english"` |
 | `Source` | `"huggingface"` |
-| `Reasoning/SFT` | `"SFT"` for pipeline.py, `"reasoning"` for reshape_pipeline.py |
+| `Reasoning/SFT` | `"SFT"` or `"reasoning"` depending on the dataset |
 | `Model` | Model used to generate reasoning (`"null"` if unknown) |
 
 ---
